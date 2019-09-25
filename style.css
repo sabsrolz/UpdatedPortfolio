@@ -1,0 +1,20 @@
+#aboutMe-container {
+  background-image: url("images/pinkpaint.png");
+}
+
+h1 {
+  font-family: "Vollkorn", serif;
+}
+
+h2 {
+  font-family: "Vollkorn", serif;
+}
+
+body {
+  font-family: "Reem Kufi", sans-serif;
+  color: black;
+}
+
+#portfolio-section {
+  opacity: 0.9;
+}
