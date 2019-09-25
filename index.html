@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Me</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel= "stylesheet" type = "text/css" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link rel = "stylesheet" type = "text/css" href = "style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Vollkorn&display=swap" rel="stylesheet">
@@ -21,7 +22,7 @@
     </row>
     <row class= "col-md-3"></row>
 
-    <row class="col-md-2">
+    <row class="col-md-3">
         <!--Add nav bar to code-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#"></a>
@@ -63,7 +64,7 @@
                       <img src = "images/bitmoji.jpg" class="img-thumbnail">
                     </div>
                     <div class="pt-5 col-md-7">
-                        <p>My name is Sabrina and I graduated last year from University of Michigan with a BSE in Industrial Engineering. I currently work for the Commodities and Energy Team at Morningstar Inc, in downtown Chicago. I was born and raised in Guatemala City, Guatemala and moved to the United States to complete my undergraduate studies. The exposure that I’ve had to the Fin Tech industry, has encouraged me to want to pursue a future career in software engineering. I want to have the opportunity to join the Quantitative Research Team at Morningstar as a Quant Developer.</p>
+                        <p>My name is Sabrina and I graduated last year from University of Michigan with a BSE in Industrial Engineering. I currently work for the Commodities and Energy Team at Morningstar Inc, in downtown Chicago. I was born and raised in Guatemala City, Guatemala and moved to the United States to complete my undergraduate studies. The exposure that I’ve had to the Fin Tech industry has encouraged me to want to pursue a future career in software engineering. I want to have the opportunity to join the Quantitative Research Team at Morningstar as a Quant Developer.</p>
                     </div>
   
                 </div> 
@@ -74,21 +75,21 @@
         </div>
 
         <div id = "contact-section"class= "offset-md-3 card-group">
-            <div class="m-2 card col-md-2">
+            <div class="contact-redirect m-2 card col-md-2">
                 <a href = "https://github.com/sabsrolz" target="_blank">
               <img src="images/github.png" class="img-thumbnail card-img-top">
             </div>
-            <div class="m-2 card col-md-2">
+            <div class="contact-redirect m-2 card col-md-2">
                     <a href = "https://www.linkedin.com/in/sabrina-rolz-sandoval-14181212b/" target="_blank">
                   <img src="images/linkedin.png" class="img-thumbnail card-img-top">
                 </div>
-                <div class="m-2 card col-md-2">
+                <div class="contact-redirect m-2 card col-md-2">
                         <a href = "mailto: sabsrolz@umich.edu" target="_blank">
                       <img src="images/gmail.png" class="img-thumbnail card-img-top">
                     </div>
-                    <div class="m-2 card col-md-2">
+                    <div class="contact-redirect m-2 card col-md-2">
                             <a href = "images/Resume Sabrina Rolz Sandoval.pdf" target="_blank">
-                          <img src="images/resume.jpg" class="img-thumbnail card-img-top">
+                          <img src="images/resume2.PNG" class="img-thumbnail card-img-top">
                         </div>
           
           </div>
@@ -101,7 +102,15 @@
           <small>Copyright &copy;</small>
         </div>
     </footer> -->
-    
+    <script>
+       
+        $(".contact-redirect").hover(function(){
+  $(this).css("background-color", "rgb(101, 33, 188)");
+  }, function(){
+  $(this).css("background-color", "white");
+});
+
+    </script>
 </body>
 
 
