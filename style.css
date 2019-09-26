@@ -2,6 +2,10 @@
   background-image: url("images/pinkpaint.png");
 }
 
+#header-section {
+  background-image: url("images/header.jpg");
+}
+
 h1 {
   font-family: "Vollkorn", serif;
 }

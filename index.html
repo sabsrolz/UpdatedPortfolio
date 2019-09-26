@@ -15,7 +15,7 @@
 <body background = "images/pink.png">
 
 <!--outer row 1 = header + nav bar-->
-<div class="p-3 mt-4 mb-3 row" style = background-color:#ffffff >
+<div id = "header-section" class="p-3 mt-4 mb-3 row" style = background-color:#ffffff >
     <row class= "col-md-2"></row>
     <row class="m-2 col-md-3">
         <h1 class="text-light text-center" style = background-color:#4aaaa5;>Sabrina Rolz</h1>
@@ -74,7 +74,7 @@
             </div>
         </div>
 
-        <div id = "contact-section"class= "offset-md-3 card-group">
+        <div id = "contact-section"class= "col-md-7 offset-md-1 card-group">
             <div class="contact-redirect m-2 card col-md-2">
                 <a href = "https://github.com/sabsrolz" target="_blank">
               <img src="images/github.png" class="img-thumbnail card-img-top">
@@ -83,7 +83,7 @@
                     <a href = "https://www.linkedin.com/in/sabrina-rolz-sandoval-14181212b/" target="_blank">
                   <img src="images/linkedin.png" class="img-thumbnail card-img-top">
                 </div>
-                <div class="contact-redirect m-2 card col-md-2">
+                <div class="contact-redirect m-2 card col-md-2 col-sm-6">
                         <a href = "mailto: sabsrolz@umich.edu" target="_blank">
                       <img src="images/gmail.png" class="img-thumbnail card-img-top">
                     </div>
@@ -105,9 +105,9 @@
     <script>
        
         $(".contact-redirect").hover(function(){
-  $(this).css("background-color", "rgb(101, 33, 188)");
+  $(this).css("transform", "scale(1.2)");
   }, function(){
-  $(this).css("background-color", "white");
+  $(this).css("transform", "scale(0.9)");
 });
 
     </script>
