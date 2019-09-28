@@ -53,17 +53,18 @@
         
 
         <!--this column is used for main container-->
-        <div class="col-md-9">
-            <div id = "aboutMe-container" class= "mt-4 mb-5 p-2 container">
+        <div id = "aboutMe-container" class="col-md-12">
+            <div id="aboutMe-image-container"></div>
+            <div class= "mt-4 mb-5 p-2 container">
               <div class="text-light row">
                   <h2>About Me</h2>
               </div>
 
               <div class="m-3 p-5 row">
-                    <div class="pt-5 m-3 col-md-4">
-                      <img src = "images/bitmoji.jpg" class="img-thumbnail">
+                    <div id = "paint-section"class="pt-5 m-3 col-md-3">
+                      <img id = "bitmoji-img" src = "images/bitmoji.jpg" class="img-thumbnail">
                     </div>
-                    <div class="pt-5 col-md-7">
+                    <div id = "aboutMe-description" class="pt-5 m-3 col-md-7">
                         <p>My name is Sabrina and I graduated last year from University of Michigan with a BSE in Industrial Engineering. I currently work for the Commodities and Energy Team at Morningstar Inc, in downtown Chicago. I was born and raised in Guatemala City, Guatemala and moved to the United States to complete my undergraduate studies. The exposure that I’ve had to the Fin Tech industry has encouraged me to want to pursue a future career in software engineering. I want to have the opportunity to join the Quantitative Research Team at Morningstar as a Quant Developer.</p>
                     </div>
   
@@ -75,21 +76,21 @@
         </div>
 
         <div id = "contact-section"class= "col-md-7 offset-md-1 card-group">
-            <div class="contact-redirect m-2 card col-md-2">
+            <div class="contact-redirect m-2 col-md-2">
                 <a href = "https://github.com/sabsrolz" target="_blank">
-              <img src="images/github.png" class="img-thumbnail card-img-top">
+              <img src="images/github.png" class="img-fluid">
             </div>
-            <div class="contact-redirect m-2 card col-md-2">
+            <div class="contact-redirect m-2 col-md-2">
                     <a href = "https://www.linkedin.com/in/sabrina-rolz-sandoval-14181212b/" target="_blank">
-                  <img src="images/linkedin.png" class="img-thumbnail card-img-top">
+                  <img src="images/linkedin.png" class="img-fluid">
                 </div>
-                <div class="contact-redirect m-2 card col-md-2 col-sm-6">
+                <div class="contact-redirect m-2 col-md-2">
                         <a href = "mailto: sabsrolz@umich.edu" target="_blank">
-                      <img src="images/gmail.png" class="img-thumbnail card-img-top">
+                      <img src="images/gmail.png" class="img-fluid">
                     </div>
-                    <div class="contact-redirect m-2 card col-md-2">
+                    <div class="contact-redirect m-2 col-md-2">
                             <a href = "images/Resume Sabrina Rolz Sandoval.pdf" target="_blank">
-                          <img src="images/resume2.PNG" class="img-thumbnail card-img-top">
+                          <img src="images/resume2.PNG" class="img-fluid">
                         </div>
           
           </div>
@@ -97,11 +98,7 @@
 
     </div>
 
-    <!-- <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-        <div class="container text-center">
-          <small>Copyright &copy;</small>
-        </div>
-    </footer> -->
+
     <script>
        
         $(".contact-redirect").hover(function(){

@@ -1,5 +1,35 @@
-#aboutMe-container {
+#aboutMe-image-container {
+  position: absolute;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
   background-image: url("images/pinkpaint.png");
+  background-size: cover;
+}
+
+#paint-section {
+  display: flex;
+  align-items: center;
+}
+#aboutMe-description {
+  font-size: 17px;
+}
+
+@media (max-width: 768px) {
+  #aboutMe-image-container {
+    transform: rotate(90deg);
+  }
+  #bitmoji-img {
+    width: 150px;
+    height: 150px;
+  }
+  #aboutMe-description {
+    font-size: 20px;
+  }
+  .contact-redirect {
+    height: 100px;
+    width: 100px;
+  }
 }
 
 #header-section {
