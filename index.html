@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me</title>
+    <title></title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel= "stylesheet" type = "text/css" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link rel = "stylesheet" type = "text/css" href = "style.css"/>
@@ -12,16 +12,18 @@
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Gloria+Hallelujah|Patrick+Hand|Reem+Kufi|Vollkorn&display=swap" rel="stylesheet">
 </head>
 
-<body background = "images/pink.png">
+<body style="background-color:white;">
 
 <!--outer row 1 = header + nav bar-->
-<div id = "header-section" class="p-3 mt-4 mb-3 row" style = background-color:#ffffff >
-    <row class= "col-md-2"></row>
-    <row class="m-2 col-md-3">
-        <h1 class="text-light text-center" style = background-color:#4aaaa5;>Sabrina Rolz</h1>
+<div id = "header-section" class="mt-4 mb-3 row" style = background-color:#ffffff >
+    <row class="col-md-4 offset-md-1">
+        <h1 class="text-dark text-center">Sabrina Rolz</h1>
+        <h6 class="text-dark text-center">sabsrolz@umich.edu</h6>
     </row>
-    <row class= "col-md-3"></row>
-
+    <row class= "col-md-3">
+        
+    </row>
+    
     <row class="col-md-3">
         <!--Add nav bar to code-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -44,27 +46,54 @@
                 </div>
         </nav>
     </row>
-    <row class = "col-md-2"></row>
+  
       
 </div> 
+<div class = "row pt-5">
+        <div class = "col-md-2 offset-md-2">
+    <img id = "bitmoji-img" src = "images/pic work2.jpeg" class="img-thumbnail">
+        </div>
+        <div class = "col-md-4 offset-md-2" id = "project-table">
+                <table class="table">
+                    <h6>Relevant Projects</h6>
+                        <thead>
+                          <tr>
+                            <th scope="col">Stock Investor Simulator</th>
+                            <th scope="col">Github<a href = "https://github.com/sabsrolz/Project2.git"></th>
+                            <th scope="col">Deployed App<a href = "https://secure-beach-99456.herokuapp.com/top"></a></th>
+                            
+                          </tr>
+                        </thead>
+                        <thead>
+                                <tr>
+                                  <th scope="col">Productivity Booster</th>
+                                  <th scope="col">Github<a href = "https://github.com/sabsrolz/Project2.git"></a></th>
+                                  <th scope="col">Deployed App<a href = "https://github.com/sabsrolz/Project2.git"></a></th>
+                                  
+                                </tr>
+                              </thead>
+                     
+                          </table>
+        </div>
+    </div>
 
 
     <div class="row justify-content-center">
         
 
         <!--this column is used for main container-->
-        <div id = "aboutMe-container" class="col-md-12">
+        <div id = "aboutMe-container" class="p- col-md-12">
             <div id="aboutMe-image-container"></div>
-            <div class= "mt-4 mb-5 p-2 container">
+            <div class= "p-2 container">
               <div class="text-light row">
-                  <h2>About Me</h2>
+                  <h2></h2>
               </div>
 
               <div class="m-3 p-5 row">
-                    <div id = "paint-section"class="pt-5 m-3 col-md-3">
-                      <img id = "bitmoji-img" src = "images/bitmoji.jpg" class="img-thumbnail">
+                    <div id = "paint-section"class="p-3 m-3 col-md-3">
+                      
                     </div>
-                    <div id = "aboutMe-description" class="pt-5 m-3 col-md-7">
+                    <div id = "aboutMe-description" class="col-md-10">
                         <p>My name is Sabrina and I graduated last year from University of Michigan with a BSE in Industrial Engineering. I currently work for the Commodities and Energy Team at Morningstar Inc, in downtown Chicago. I was born and raised in Guatemala City, Guatemala and moved to the United States to complete my undergraduate studies. The exposure that I’ve had to the Fin Tech industry has encouraged me to want to pursue a future career in software engineering. I want to have the opportunity to join the Quantitative Research Team at Morningstar as a Quant Developer.</p>
                     </div>
   
@@ -75,7 +104,7 @@
             </div>
         </div>
 
-        <div id = "contact-section"class= "col-md-7 offset-md-1 card-group">
+        <div id = "contact-section"class= "col-md-6 offset-md-1 card-group">
             <div class="contact-redirect m-2 col-md-2">
                 <a href = "https://github.com/sabsrolz" target="_blank">
               <img src="images/github.png" class="img-fluid">
